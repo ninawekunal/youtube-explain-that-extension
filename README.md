@@ -49,7 +49,7 @@ All code, architecture, and documentation were generated or heavily assisted by 
 3. Enable **Developer mode** (toggle at the top right).
 4. Click **Load unpacked** and select this project folder.
 5. 
-###🔑 Set Up Your API Key
+### 🔑 Set Up Your API Key
 1. Get a free Hugging Face API token from [huggingface.co/settings/tokens](https://huggingface.co/settings/tokens).
 2. Open `content.js` in the project folder.
 3. Replace the placeholder in:
