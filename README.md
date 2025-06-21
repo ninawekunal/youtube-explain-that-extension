@@ -38,19 +38,18 @@ Barebones demo :-P -> https://youtu.be/5saUBPkPS3o
  - **Better Error Handling**: Show clearer errors when transcripts or AI responses are unavailable, gracefully fail, and send the user some feedback.
  - Maybe extend the support to Spotify/other podcast platforms for the same use-case.
 
-**Note**: This project was built with the help of AI coding assistants (e.g., ChatGPT/Cascade).
+#### Note
+This project was built with the help of AI coding assistants (e.g., ChatGPT/Cascade).
 All code, architecture, and documentation were generated or heavily assisted by AI, with the developer (me) providing the idea, guidance, and integration to rapidly prototype an idea.
 
 ## 🧑‍🏫 Usage
-## 🚀 Install the Extension
-
+### 🚀 Install the Extension
 1. **Download or clone this repository.**
 2. Open Chrome and navigate to `chrome://extensions/`.
 3. Enable **Developer mode** (toggle at the top right).
 4. Click **Load unpacked** and select this project folder.
-
-## 🔑 Set Up Your API Key
-
+5. 
+###🔑 Set Up Your API Key
 1. Get a free Hugging Face API token from [huggingface.co/settings/tokens](https://huggingface.co/settings/tokens).
 2. Open `content.js` in the project folder.
 3. Replace the placeholder in:
@@ -59,7 +58,7 @@ All code, architecture, and documentation were generated or heavily assisted by 
    ```
    with your token.
 
-## ▶️ Use the Extension
+### ▶️ Use the Extension
 1. **Open a YouTube video**
    - Go to any YouTube video page.
    - Wait a few seconds for the extension to fetch the transcript (if available).
@@ -74,7 +73,7 @@ All code, architecture, and documentation were generated or heavily assisted by 
    - Ask as many questions as you like during the video.
    - Close the chatbox with the `×` button when finished.
 
-## ⚠️ Notes
+#### ⚠️ Notes
 
 - Works best on videos with **English captions/transcripts**.
 - Requires an **internet connection** for AI responses.
