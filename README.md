@@ -81,15 +81,14 @@ All code, architecture, and documentation were generated or heavily assisted by 
 
 ```mermaid
 flowchart TD
-    A[User opens YouTube video page] --> B[Extension loads]
-    B --> C[Fetch full transcript via API]
-    C --> D[Show floating "Ask Video" button]
-    D --> E[User clicks button]
-    E --> F[Show chatbox overlay]
-    F --> G[User types a question and presses send]
-    G --> H[Send transcript + question to Hugging Face Provider API]
-    H --> I[Receive answer from model]
-    I --> J[Display answer in chatbox]
-    I --> K[Speak answer out loud]
-```
+    A(User opens YouTube video page) --> B(Extension loads)
+    B --> C(Fetch full transcript via API)
+    C --> D(Show floating Ask Video button)
+    D --> E(User clicks button)
+    E --> F(Show chatbox overlay)
+    F --> G(User types a question and presses send)
+    G --> H(Send transcript + question to Hugging Face Provider API)
+    H --> I(Receive answer from model)
+    I --> J(Display answer in chatbox)
+    I --> K(Speak answer out loud)
 ---
