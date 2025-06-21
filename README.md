@@ -11,7 +11,7 @@ An overlay Chrome extension that can explain anything from a YouTube video using
 - Voice assistants like Siri are handy, but they don’t have context from the video.
 - This inspired me to build an assistant that can answer questions about the currently playing YouTube video, using the video’s own transcript for context.
 
-This project was built as a Minimum Viable Product (MVP) for a hackathon, with a focus on rapid prototyping and extensibility for future improvements.
+This project was built as a Minimum Viable Product (MVP) for the hackathon - [Speaking with Machines](https://lu.ma/kqxncb3g), with a focus on rapid prototyping and extensibility for future improvements.
 
 ---
 
