@@ -26,6 +26,19 @@ This project was built as a Minimum Viable Product (MVP) for a hackathon, with a
 
 ---
 
+## Future enhancements
+ - **Voice Command Integration**: trigger explanations with phrases like “Explain that” or “What does that mean?” using the Web Speech API.
+   - While the chrome extension is enabled, it'll keep listening for that phrase as trigger.
+   - The video should pause when the user speaks that phrase.
+ - **Smart Context Detection**: Now that we have a rough timestamp of when the user says that, instead of reading the full transcript, automatically select and send only the most relevant segment (_e.g., the last minute or the segment around the current timestamp._)
+ - **History retention**: Store the history of the chat for that video.
+   - **Link to Google Account**: To remember the user and save the history for the videos they interact with.
+ - **Better Error Handling**: Show clearer errors when transcripts or AI responses are unavailable, gracefully fail, and send the user some feedback.
+ - Maybe extend the support to Spotify/other podcast platforms for the same use-case.
+
+**Note**: This project was built with the help of AI coding assistants (e.g., ChatGPT/Cascade).
+All code, architecture, and documentation were generated or heavily assisted by AI, with the developer (me) providing the idea, guidance, and integration to rapidly prototype an idea.
+
 ## 🧑‍🏫 Usage
 ## 🚀 Install the Extension
 
@@ -80,16 +93,3 @@ flowchart TD
     I --> K[Speak answer out loud]
 ```
 ---
-
-## Future enhancements
- - **Voice Command Integration**: trigger explanations with phrases like “Explain that” or “What does that mean?” using the Web Speech API.
-   - While the chrome extension is enabled, it'll keep listening for that phrase as trigger.
-   - The video should pause when the user speaks that phrase.
- - **Smart Context Detection**: Now that we have a rough timestamp of when the user says that, instead of reading the full transcript, automatically select and send only the most relevant segment (_e.g., the last minute or the segment around the current timestamp._)
- - **History retention**: Store the history of the chat for that video.
-   - **Link to Google Account**: To remember the user and save the history for the videos they interact with.
- - **Better Error Handling**: Show clearer errors when transcripts or AI responses are unavailable, gracefully fail, and send the user some feedback.
- - Maybe extend the support to Spotify/other podcast platforms for the same use-case.
-
-**Note**: This project was built with the help of AI coding assistants (e.g., ChatGPT/Cascade).
-All code, architecture, and documentation were generated or heavily assisted by AI, with the developer (me) providing the idea, guidance, and integration to rapidly prototype an idea.
