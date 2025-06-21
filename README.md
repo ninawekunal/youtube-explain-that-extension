@@ -24,6 +24,7 @@ This project was built as a Minimum Viable Product (MVP) for a hackathon, with a
 - **Text-to-Speech:** The answer is both displayed in the chat and spoken out loud.
 - **No backend required:** All logic runs in the browser; only the AI inference is cloud-based.
 
+Barebones demo :-P -> https://youtu.be/5saUBPkPS3o
 ---
 
 ## Future enhancements
